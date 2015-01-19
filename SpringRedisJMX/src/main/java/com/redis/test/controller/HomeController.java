@@ -26,6 +26,7 @@ import com.redis.test.service.UserService;
  * 
  * @author ketav
  */
+
 @Controller
 public class HomeController {
 	

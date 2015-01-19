@@ -13,6 +13,12 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+/**
+ * Java based web application context
+ * 
+ * @author ketav
+ */
+
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages={"com.redis.test.controller"})

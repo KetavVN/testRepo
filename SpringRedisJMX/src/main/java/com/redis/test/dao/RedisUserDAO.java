@@ -11,6 +11,12 @@ import org.springframework.stereotype.Repository;
 
 import com.redis.test.domain.User;
 
+/**
+ * Redis based UserDAO implementation
+ * 
+ * @author ketav
+ */
+
 @Repository("redisUserDAO")
 public class RedisUserDAO implements UserDAO{
 	

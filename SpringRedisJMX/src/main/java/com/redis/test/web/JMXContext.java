@@ -6,6 +6,12 @@ import org.springframework.context.annotation.EnableMBeanExport;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.jmx.export.annotation.AnnotationMBeanExporter;
 
+/**
+ * JMX context
+ * 
+ * @author ketav
+ */
+
 @Configuration
 @EnableMBeanExport
 public class JMXContext {

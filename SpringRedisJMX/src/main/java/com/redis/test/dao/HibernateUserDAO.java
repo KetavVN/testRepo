@@ -15,10 +15,11 @@ import com.redis.test.domain.User;
 
 
 /**
- * implementation class for user dao.
+ * Hibernate based UserDAO implementation.
+ * 
  * @author Ketav
- *
  */
+
 @Repository("hibernateUserDAO")
 @Transactional(isolation=Isolation.READ_COMMITTED, propagation=Propagation.REQUIRED)
 public class HibernateUserDAO implements UserDAO {

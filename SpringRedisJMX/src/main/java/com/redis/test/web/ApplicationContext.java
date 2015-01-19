@@ -16,6 +16,12 @@ import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+/**
+ * Java based root application context
+ * 
+ * @author ketav
+ */
+
 @Configuration
 @EnableTransactionManagement
 @EnableSpringConfigured

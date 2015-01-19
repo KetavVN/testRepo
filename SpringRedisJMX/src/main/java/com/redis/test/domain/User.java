@@ -10,6 +10,11 @@ import javax.validation.constraints.Size;
 
 import com.redis.test.annotations.RCacheable;
 
+/**
+ * 
+ * @author ketav
+ */
+
 @Entity(name="users")
 @RCacheable(keyField="userName", timeOut=120)
 public class User implements Serializable{
